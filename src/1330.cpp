@@ -7,7 +7,12 @@ int main()
     cin.tie(0)->sync_with_stdio(0);
     int a;
     int b;
-    
     cin >> a >> b;
-    cout << a + b;
+    
+    if (a > b)
+        cout << ">";
+    else if (a < b)
+        cout << "<";
+    else
+        cout << "==";
 }
